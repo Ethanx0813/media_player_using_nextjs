@@ -1,7 +1,7 @@
 "use client"
 import React from 'react';
 import MediaPlayer from './components/MediaPlayer';
-//import Suggestion from '@/components/Suggestion';
+import Suggestion from './components/Suggestion';
 
 export default function Home() {
   return (
@@ -13,6 +13,8 @@ export default function Home() {
         <div className="flex">
           <div className="mr-8">
             <MediaPlayer />
+           
+           <div className='mr-9'>  <Suggestion /></div>
           </div>
           <div className="flex-grow">
           
